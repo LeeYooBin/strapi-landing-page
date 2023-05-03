@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_footer_footer_icons",
+  "info": {
+    "displayName": "Footer_icon"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

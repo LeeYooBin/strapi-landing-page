@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_section_form_fields",
+  "info": {
+    "displayName": "form_field"
+  },
+  "options": {},
+  "attributes": {
+    "field_name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

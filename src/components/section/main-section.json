@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_section_main_sections",
+  "info": {
+    "displayName": "Section_main",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "effect_text": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "button": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255,
+      "minLength": 3
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "slogan": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.icon-grid"
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.section-metadata"
+    }
+  }
+}

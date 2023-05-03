@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_section_icon_grids",
+  "info": {
+    "displayName": "Icon-grid"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

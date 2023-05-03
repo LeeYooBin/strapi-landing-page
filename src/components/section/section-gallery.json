@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_section_section_galleries",
+  "info": {
+    "displayName": "Section_gallery",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "text_logo": {
+      "type": "string",
+      "required": false,
+      "maxLength": 255,
+      "minLength": 3
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text_button": {
+      "type": "string"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.section-metadata"
+    }
+  }
+}
