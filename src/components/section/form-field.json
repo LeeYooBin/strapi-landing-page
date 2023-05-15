@@ -1,12 +1,30 @@
 {
   "collectionName": "components_section_form_fields",
   "info": {
-    "displayName": "form_field"
+    "displayName": "form_field",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "field_name": {
       "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255,
+      "minLength": 3
+    },
+    "name": {
+      "type": "string",
+      "maxLength": 255,
+      "minLength": 3,
+      "required": true
+    },
+    "is_required": {
+      "type": "boolean",
+      "default": true,
       "required": true
     }
   }

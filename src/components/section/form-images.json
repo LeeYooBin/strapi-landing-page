@@ -1,20 +1,20 @@
 {
-  "collectionName": "components_footer_footer_icons",
+  "collectionName": "components_section_form_images",
   "info": {
-    "displayName": "Footer_icon",
+    "displayName": "form-images",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "icon": {
+    "image": {
       "type": "media",
       "multiple": false,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "images"
       ]
     },
-    "text": {
+    "text_image": {
       "type": "string",
       "required": true,
       "maxLength": 255,

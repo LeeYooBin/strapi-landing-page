@@ -1,20 +1,19 @@
 {
-  "collectionName": "components_section_image_grids",
+  "collectionName": "components_section_icons",
   "info": {
-    "displayName": "image-grid",
-    "description": ""
+    "displayName": "icon"
   },
   "options": {},
   "attributes": {
     "image": {
-      "type": "media",
-      "multiple": true,
-      "required": true,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     },
-    "image_text": {
+    "text_image": {
       "type": "string",
       "required": true,
       "maxLength": 255,

@@ -23,14 +23,6 @@
       "maxLength": 255,
       "minLength": 3
     },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "slogan": {
       "type": "component",
       "repeatable": true,
@@ -40,6 +32,11 @@
       "type": "component",
       "repeatable": false,
       "component": "section.section-metadata"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.image-grid"
     }
   }
 }

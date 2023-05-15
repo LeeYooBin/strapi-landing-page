@@ -20,18 +20,15 @@
       "type": "richtext",
       "required": true
     },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "metadata": {
       "type": "component",
       "repeatable": false,
       "component": "section.section-metadata"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.image-grid"
     }
   }
 }

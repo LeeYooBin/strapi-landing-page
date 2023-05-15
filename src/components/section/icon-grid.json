@@ -1,21 +1,28 @@
 {
   "collectionName": "components_section_icon_grids",
   "info": {
-    "displayName": "Icon-grid"
+    "displayName": "Icon-grid",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "icon": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "text": {
       "type": "text",
       "required": true
+    },
+    "image_text": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255,
+      "minLength": 3
     }
   }
 }
